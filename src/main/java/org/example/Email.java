@@ -82,8 +82,8 @@ public class Email implements Serializable, Comparable<Email> {
     public static List<Email> getList() {
         return new ArrayList<>() {
             {
-                add(new Email("01", "Meeting", "john@example.com", "alice@example.com", new Date(), "Discussing project details", false));
-                add(new Email("02", "Vacation Plans", "alice@example.com", "bob@example.com", new Date(), "Let's plan the vacation", false));
+                add(new Email("02", "Meeting", "john@example.com", "alice@example.com", new Date(), "Discussing project details", false));
+                add(new Email("01", "Vacation Plans", "alice@example.com", "bob@example.com", new Date(), "Let's plan the vacation", false));
                 add(new Email("03", "Special Offer", "spam@example.com", "user@example.com", new Date(), "You've won a prize!", true));
 
             }
